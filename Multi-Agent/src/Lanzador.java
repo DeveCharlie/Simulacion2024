@@ -5,6 +5,7 @@ import jade.core.behaviours.CyclicBehaviour;
 import jade.lang.acl.ACLMessage;
 import com.google.gson.Gson;
 
+// -agents Emisor1:PrimerAgenteEmisor;SLRAgent1:Lanzador;Emisor2:SegundoAgenteEmisor;PRAgent1:LanzadorPR -gui
 public class Lanzador extends Agent{
 
     protected void setup (){
